@@ -1,0 +1,30 @@
+:root {
+    --primary-font-family: "Montserrat", sans-serif;
+    --contacts-font-family: "Inter", sans-serif;
+    --primary-text-color: #f3f3f3;
+    --background-color: #000000;
+}
+
+/* =============== COMPONENTS =============== */
+body {
+    font-family: var(--primary-font-family);
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    color: inherit;
+}
+/* =============== /COMPONENTS =============== */
+
+/* =============== HERO RIGHT =============== */
+.content-item {
+    text-transform: uppercase;
+}
+/* =============== /HERO RIGHT =============== */
