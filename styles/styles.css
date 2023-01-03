@@ -1,7 +1,7 @@
 :root {
     --primary-font-family: "Montserrat", sans-serif;
     --footer-font-family: "Inter", sans-serif;
-    --privacy-font-family: 'Roboto', sans-serif;
+    --privacy-font-family: "Roboto", sans-serif;
     --primary-text-color: #f3f3f3;
     --background-color: #000000;
     --privacy-text-color: #979797;
@@ -9,6 +9,20 @@
 }
 
 /* =============== COMPONENTS =============== */
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 body {
     font-family: var(--primary-font-family);
     color: var(--primary-text-color);
