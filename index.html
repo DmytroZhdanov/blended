@@ -19,29 +19,30 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav>
-          <a href="./index.html" class="link"
+      <div class="container header-block">
+        <nav class="navigator">
+          <a href="./index.html" class="link logo"
             ><img
               src="./images/logo.svg"
               alt="logo"
-              width="20"
-              height="20"
+              width="32"
+              height="32"
+              class="logo-img"
             />CUCINA</a
           >
           <ul class="list">
-            <li><a href="./index.html" class="link">Home</a></li>
-            <li><a href="#" class="link">Store</a></li>
-            <li><a href="#" class="link">Recipes</a></li>
-            <li><a href="#" class="link">Gallery</a></li>
+            <li class="item"><a href="./index.html" class="link">Home</a></li>
+            <li class="item"><a href="#" class="link">Store</a></li>
+            <li class="item"><a href="#" class="link">Recipes</a></li>
+            <li class="item"><a href="#" class="link">Gallery</a></li>
           </ul>
         </nav>
-        <button type="button">Contact us</button>
+        <button type="button" class="btn-contact">Contact us</button>
       </div>
     </header>
     <main>
       <section>
-        <div class="container">
+        <div class="container hero">
           <!-- Hero Section Left -->
           <h1>CUCINA DI CATHERINA</h1>
           <h2>We know, you will love our product</h2>
@@ -155,61 +156,86 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer-blok">
-        <div class="footer-box">
-          <a href="./index.html" class="link link-logo"
-            ><img src="./images/logo.svg" alt="logo" class="logo" />CUCINA</a
+      <div class="container">
+        <div class="footer-link">
+          <a href="./index.html" class="link logo">
+            <img src="./images/logo.svg" alt="logo" class="logo-img" />CUCINA</a
           >
-
-          <ul class="list list-link">
-            <li class="list-item">
-              <a href="./index.html" class="link">Home</a>
-            </li>
-            <li class="list-item"><a href="./store" class="link">Store</a></li>
-            <li class="list-item">
-              <a href="./recipes" class="link">Recipes</a>
-            </li>
-            <li class="list-item">
-              <a href="./gallery" class="link">Gallery</a>
-            </li>
+          <ul class="list link-pages">
+            <li class="item"><a href="./index.html" class="link">Home</a></li>
+            <li class="item"><a href="./store" class="link">Store</a></li>
+            <li class="item"><a href="./recipes" class="link">Recipes</a></li>
+            <li class="item"><a href="./gallery" class="link">Gallery</a></li>
           </ul>
-          <address>
-            <ul class="list list-adress">
-              <li class="link-address">
-                <a href="https://goo.gl/maps/LSCHtoTCH1fFHiaG9" class="link">
-                  <img src="./images/ep_location.svg" alt="location" />Elvia
-                  Elviaveien 1, 1234 Oslo
+          <address class="adress-block">
+            <ul class="list">
+              <li class="item list-adress">
+                <a
+                  href="https://goo.gl/maps/LSCHtoTCH1fFHiaG9"
+                  class="link link-adres"
+                >
+                  <img
+                    src="./images/ep_location.svg"
+                    alt="location"
+                    width="24"
+                    height="24"
+                    class="icon"
+                  />
+                  <p>Elvia Elviaveien 1, 1234 Oslo</p>
                 </a>
               </li>
-              <li>
-                <a href="mailto:willie.jennings@example.com" class="link mail">
+              <li class="item list-email">
+                <a
+                  href="mailto:willie.jennings@example.com"
+                  class="link link-email"
+                >
                   <img
                     src="./images/mail.svg"
                     alt="email"
-                  />willie.jennings@example.com
+                    width="24"
+                    height="24"
+                    class="icon"
+                  />
+                  <p>willie.jennings@example.com</p>
                 </a>
               </li>
             </ul>
           </address>
           <ul class="list list-icons">
             <li class="items">
-              <a href="#" class="link"
-                ><img src="./images/tumblr.svg" alt="tumblr"
+              <a href="#"
+                ><img
+                  src="./images/tumblr.svg"
+                  alt="tumblr"
+                  width="24"
+                  height="24"
               /></a>
             </li>
             <li class="items">
-              <a href="#" class="link"
-                ><img src="./images/instagram.svg" alt="instagram"
+              <a href="#"
+                ><img
+                  src="./images/instagram.svg"
+                  alt="instagram"
+                  width="24"
+                  height="24"
               /></a>
             </li>
             <li class="items">
-              <a href="#" class="link"
-                ><img src="./images/youtube.svg" alt="youtube"
+              <a href="#"
+                ><img
+                  src="./images/youtube.svg"
+                  alt="youtube"
+                  width="24"
+                  height="24"
               /></a>
             </li>
             <li class="items">
-              <a href="#" class="link"
-                ><img src="./images/twitter.svg" alt="twitter"
+              <a href="#"
+                ><img
+                  src="./images/twitter.svg"
+                  alt="twitter"
+                  width="24"
+                  height="24"
               /></a>
             </li>
           </ul>
