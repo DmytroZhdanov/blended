@@ -143,6 +143,7 @@ body {
 .hero-section {
   display: flex;
   justify-content: space-between;
+  padding-top: 72px;
 }
 
 .hero {
@@ -159,27 +160,26 @@ body {
   display: flex;
 }
 
-.content-item1 {
-  margin-top: 73px;
+/* .content-item1 {
   margin-bottom: 143px;
 }
 
 .content-item2 {
   margin-bottom: 181px;
+  
 }
 
 .content-item3 {
   margin-bottom: 165px;
-}
+} */
 
 /* .content-item4 {
 margin-bottom: 78px;
 } */
 
-.ketchup {
-  margin-top: 113px;
-  margin-bottom: 72px;
-}
+/* .ketchup {
+  margin-left: -172px;
+} */
 
 .social-list-links {
   margin: 264px 0 264px 47px;
@@ -187,6 +187,11 @@ margin-bottom: 78px;
 
 .social-link:not(:last-child) {
   margin-bottom: 32px;
+}
+
+.social-link-img {
+  margin-left: auto;
+  margin-right: auto;
 }
 /* =============== /HERO RIGHT =============== */
 
