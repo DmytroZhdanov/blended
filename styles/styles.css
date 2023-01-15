@@ -35,6 +35,10 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 body {
   font-family: var(--primary-font-family);
   color: var(--primary-text-color);
@@ -63,9 +67,9 @@ body {
   font-style: normal;
   color: inherit;
 }
+/* =============== /COMPONENTS =============== */
 
-/*=================/HEADER/====================*/
-
+/*================ HEADER ===============*/
 .header-block {
   background: var(--background-header);
   display: flex;
@@ -133,27 +137,66 @@ body {
 
   font-weight: 800;
 }
-
-/* =============== /COMPONENTS =============== */
+/*================ /HEADER ===============*/
 
 /* =============== HERO RIGHT =============== */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
 .hero {
   background: var(--background-hero);
 }
+
 .content-item {
   text-transform: uppercase;
   line-height: 1.25;
+  display: block;
+}
+
+.hero-section-right {
+  display: flex;
+}
+
+.content-item1 {
+  margin-top: 73px;
+  margin-bottom: 143px;
+}
+
+.content-item2 {
+  margin-bottom: 181px;
+}
+
+.content-item3 {
+  margin-bottom: 165px;
+}
+
+/* .content-item4 {
+margin-bottom: 78px;
+} */
+
+.ketchup {
+  margin-top: 113px;
+  margin-bottom: 72px;
+}
+
+.social-list-links {
+  margin: 264px 0 264px 47px;
+}
+
+.social-link:not(:last-child) {
+  margin-bottom: 32px;
 }
 /* =============== /HERO RIGHT =============== */
 
-/* =============== /SECTION-VIDEO ===============*/
-
+/* =============== SECTION-VIDEO ===============*/
 .section-video {
   padding-bottom: 100px;
 }
+/* =============== /SECTION-VIDEO ===============*/
 
 /* =============== FOOTER =============== */
-
 .footer {
   padding-top: 24px;
 }
