@@ -5,18 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;400;500;600;700;800&family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;400;500;600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
   <body>
     <header class="header">
       <div class="container header-block">
@@ -162,8 +156,22 @@
           </form>
         </div>
       </section>
+      <!-- Gallery -->
+      <section class="gallery"></section>
+      <div class="container gallery-cont">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/images/farmer-picking-fresh-ripe-tomato-vegetables-for-the-market-sale 1.jpg" alt="farmer"></div>
+            <div class="swiper-slide"><img src="/images/full-shot-kids-picking-tomatoes 1.jpg" alt="kids with tomatoes"></div>
+            <div class="swiper-slide"><img src="/images/image 6.jpg" alt="farmer"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
     </main>
-
+      <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="footer-link">
@@ -226,5 +234,6 @@
         </p>
       </div>
     </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   </body>
 </html>
