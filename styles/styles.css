@@ -3,19 +3,31 @@
   --footer-font-family: "Inter", sans-serif;
   --privacy-font-family: "Roboto", sans-serif;
   --primary-text-color: #f3f3f3;
-  --background-header: linear-gradient(
+  /* --background-header: linear-gradient(
     228.52deg,
     rgba(111, 102, 102, 0.9) 4.71%,
     rgba(16, 15, 15, 0.9) 39.77%,
     rgba(16, 15, 15, 0.9) 44.21%
-  );
+  ); */
   --background-hero: linear-gradient(
     228.52deg,
     rgba(111, 102, 102, 0.9) 4.71%,
     rgba(16, 15, 15, 0.9) 39.77%,
     rgba(16, 15, 15, 0.9) 44.21%
   );
-  --Background-dark: #100f0f;
+  --background-header: linear-gradient(
+    256.51deg,
+    rgba(111, 102, 102, 0.9) 26.96%,
+    rgba(16, 15, 15, 0.9) 79.08%,
+    rgba(16, 15, 15, 0.9) 79.08%
+  );
+  /* --background-hero: linear-gradient(
+    256.51deg,
+    rgba(111, 102, 102, 0.9) 26.96%,
+    rgba(16, 15, 15, 0.9) 79.08%,
+    rgba(16, 15, 15, 0.9) 79.08%
+  ); */
+  --background-dark: #100f0f;
   --privacy-text-color: #979797;
   --privacy-link-color: #ffffff;
 }
@@ -42,7 +54,7 @@ img {
 body {
   font-family: var(--primary-font-family);
   color: var(--primary-text-color);
-  background: var(--Background-dark);
+  background: var(--background-dark);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -70,8 +82,11 @@ body {
 /* =============== /COMPONENTS =============== */
 
 /*================ HEADER ===============*/
-.header-block {
+.header {
   background: var(--background-header);
+}
+
+.header-block {
   display: flex;
   align-items: center;
 }
