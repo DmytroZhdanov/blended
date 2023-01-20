@@ -18,11 +18,11 @@ p { font-family: inherit, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height:1.25;
-    
+    color: var(--text-color);
 }
 .motto {
     font-weight: 800;
-    background-image: rgba(188, 26, 26, 0.2);
+    color: #bc1a1ab5;
 }
 .btn {
     font-family: inherit, sans-serif;
@@ -30,7 +30,7 @@ p { font-family: inherit, sans-serif;
     font-size: 30px;
     line-height: 1.23;
     color:var(--text-color);
-    background-color: rgba(188, 26, 26, 0.2);
+    background-color: #bc1a1a;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -48,6 +48,7 @@ p { font-family: inherit, sans-serif;
     line-height: 1.2;
     color: var(--text-color);
 }
-.section { 
+.section {
+background-image: linear-gradient(228.52deg, rgba(111, 102, 102, 0.9) 4.71%, rgba(16, 15, 15, 0.9) 39.77%, rgba(16, 15, 15, 0.9) 44.21%);;
     padding-top: 72px;
     padding-bottom: 145.5px;}
