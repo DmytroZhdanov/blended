@@ -135,6 +135,7 @@ body {
 }
 
 .btn-contact {
+  cursor: pointer;
   margin-left: auto;
 
   min-width: 160px;
@@ -152,6 +153,15 @@ body {
 
   font-weight: 800;
 }
+
+.header-block .link:is(:hover, :focus) {
+  color: #bc1a1a;
+}
+
+.btn-contact:is(:hover, :focus) {
+  background-color: #bc1a1a;
+}
+
 /*================ /HEADER ===============*/
 
 /*================ HERO LEFT ===============*/
@@ -334,9 +344,9 @@ body {
 }
 
 .gallery-cont {
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* =============== FOOTER =============== */
 .footer {
