@@ -380,6 +380,7 @@ body {
   padding-bottom: 20px;
 }
 
+/* ==================adress block=================== */
 .adress-block {
   margin-right: 218px;
 }
@@ -388,16 +389,20 @@ body {
 .link-email {
   display: flex;
   align-items: center;
-}
-
-.icon {
-  margin-right: 8px;
+  justify-content: left;
 }
 
 .list-adress {
   margin-bottom: 45px;
 }
 
+.svg-icon {
+  display: inline-flex;
+  fill: currentColor;
+  margin-right: 8px;
+}
+
+/* =====================end adress block============== */
 .list-icons .items:not(:last-child) {
   margin-bottom: 16px;
 }
