@@ -3,30 +3,12 @@
   --footer-font-family: "Inter", sans-serif;
   --privacy-font-family: "Roboto", sans-serif;
   --primary-text-color: #f3f3f3;
-  /* --background-header: linear-gradient(
-    228.52deg,
-    rgba(111, 102, 102, 0.9) 4.71%,
-    rgba(16, 15, 15, 0.9) 39.77%,
-    rgba(16, 15, 15, 0.9) 44.21%
-  ); */
   --background-hero: linear-gradient(
     228.52deg,
     rgba(111, 102, 102, 0.9) 4.71%,
     rgba(16, 15, 15, 0.9) 39.77%,
     rgba(16, 15, 15, 0.9) 44.21%
   );
-  --background-header: linear-gradient(
-    256.51deg,
-    rgba(111, 102, 102, 0.9) 26.96%,
-    rgba(16, 15, 15, 0.9) 79.08%,
-    rgba(16, 15, 15, 0.9) 79.08%
-  );
-  /* --background-hero: linear-gradient(
-    256.51deg,
-    rgba(111, 102, 102, 0.9) 26.96%,
-    rgba(16, 15, 15, 0.9) 79.08%,
-    rgba(16, 15, 15, 0.9) 79.08%
-  ); */
   --background-dark: #100f0f;
   --privacy-text-color: #979797;
   --privacy-link-color: #ffffff;
@@ -83,7 +65,9 @@ body {
 
 /*================ HEADER ===============*/
 .header {
-  background: var(--background-header);
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
 }
 
 .header-block {
@@ -165,6 +149,10 @@ body {
 /*================ /HEADER ===============*/
 
 /*================ HERO LEFT ===============*/
+.hero {
+  padding-top: 80px;
+}
+
 .hero-section-left {
   width: 447px;
 }
@@ -276,11 +264,19 @@ body {
   margin: auto 0 auto 47px;
 }
 
+.social-link {
+  padding: 10px;
+  border: #f3f3f3 solid 1px;
+  border-radius: 50%;
+}
+
 .social-link:not(:last-child) {
   margin-bottom: 32px;
 }
 
 .social-link-img {
+  width: 24px;
+  height: 24px;
   margin-left: auto;
   margin-right: auto;
 }
