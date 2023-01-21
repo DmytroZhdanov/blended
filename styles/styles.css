@@ -282,6 +282,16 @@ body {
 }
 /* =============== /HERO RIGHT =============== */
 
+/* =============== /SAUCES =============== */
+.sauces-item {
+  display: flex;
+}
+
+.sauces-img {
+  border-radius: 50%;
+}
+/* =============== /SAUCES =============== */
+
 /* =============== SECTION-VIDEO ===============*/
 .section-video {
   padding-bottom: 100px;
