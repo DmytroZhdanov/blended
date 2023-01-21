@@ -159,7 +159,7 @@ body {
 }
 
 .btn-contact:is(:hover, :focus) {
-  color: #bc1a1a;
+  background-color: #bc1a1a;
 }
 
 /*================ /HEADER ===============*/
