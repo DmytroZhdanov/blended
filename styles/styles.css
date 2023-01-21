@@ -283,14 +283,26 @@ body {
 /* =============== /HERO RIGHT =============== */
 
 /* =============== /SAUCES =============== */
-.sauces-item {
-  display: flex;
-}
-
 .sauces-img {
   border-radius: 50%;
 }
 /* =============== /SAUCES =============== */
+.sauces-item {
+  display: flex;
+  align-items: center;
+}
+
+.sauces-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.sauces-list > .sauces-item:nth-child(2n + 1) .sauces-content {
+  margin-left: 90px;
+}
+
+.sauces-list > .sauces-item:nth-child(2n) .sauces-content {
+  margin-right: 90px;
+}
 
 /* =============== SECTION-VIDEO ===============*/
 .section-video {
