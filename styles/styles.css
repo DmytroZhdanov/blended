@@ -154,7 +154,7 @@ body {
   font-weight: 800;
 }
 
-.header-block .link:is(:hover, :focus) {
+.header-block .item:is(:hover, :focus) {
   color: #bc1a1a;
 }
 
@@ -350,13 +350,14 @@ body {
 }
 /* =============== FOOTER =============== */
 .footer {
-  padding-top: 24px;
+  padding-top: 147px;
 }
 
 .footer-link {
   display: flex;
   align-items: center;
-  padding-bottom: 24px;
+  margin-bottom: 40px;
+  padding-top: 24px;
 
   font-family: var(--footer-font-family);
   line-height: 1.19;
@@ -395,8 +396,28 @@ body {
   margin-bottom: 16px;
 }
 
+.list-icons .items {
+  width: 40px;
+  height: 40px;
+}
+
+.social {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.social:is(:hover, :focus) {
+  background-color: #bc1a1a;
+}
+
 .privacy {
   text-align: center;
+
+  margin-bottom: 5px;
 
   font-family: var(--privacy-font-family);
   font-size: 14px;
@@ -409,4 +430,13 @@ body {
   color: var(--privacy-link-color);
   text-decoration: underline;
 }
+
+.link-pages .link:is(:hover, :focus) {
+  color: #bc1a1a;
+}
+
+.adress-block .link:is(:hover, :focus) {
+  color: #bc1a1a;
+}
+
 /* =============== FOOTER =============== */
