@@ -12,6 +12,7 @@
   --background-dark: #100f0f;
   --privacy-text-color: #979797;
   --privacy-link-color: #ffffff;
+  --primary-brand-color: rgba(188, 26, 26, 0.5);
 }
 
 /* =============== COMPONENTS =============== */
@@ -94,6 +95,13 @@ body {
   line-height: 1.2;
 }
 
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  fill: var(--primary-text-color);
+  margin-right: 16px;
+}
+
 .navigator .logo {
   margin-right: 228px;
 }
@@ -139,7 +147,7 @@ body {
 }
 
 .header-block .item:is(:hover, :focus) {
-  color: #bc1a1a;
+  color: var(--primary-brand-color);
 }
 
 .btn-contact:is(:hover, :focus) {
@@ -265,18 +273,21 @@ body {
 }
 
 .social-link {
-  padding: 10px;
-  border: #f3f3f3 solid 1px;
-  border-radius: 50%;
+  color: var(--primary-text-color);
+}
+
+.social-link:is(:hover, :focus) {
+  color: var(--primary-brand-color);
 }
 
 .social-link:not(:last-child) {
   margin-bottom: 32px;
 }
 
-.social-link-img {
+.soc-icon {
   width: 24px;
   height: 24px;
+  fill: currentColor;
   margin-left: auto;
   margin-right: auto;
 }
@@ -431,10 +442,11 @@ body {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  color: var(--primary-text-color);
 }
 
 .social:is(:hover, :focus) {
-  background-color: #bc1a1a;
+  color: var(--primary-brand-color);
 }
 
 .privacy {
@@ -455,11 +467,11 @@ body {
 }
 
 .link-pages .link:is(:hover, :focus) {
-  color: #bc1a1a;
+  color: var(--primary-brand-color);
 }
 
 .adress-block .link:is(:hover, :focus) {
-  color: #bc1a1a;
+  color: var(--primary-brand-color);
 }
 
 /* =============== FOOTER =============== */
