@@ -13,12 +13,18 @@ h1 {font-weight: 500;
 h2{font-weight: 300;
     font-size: 36px;
 line-height: 1.2;
+color: var(--text-color)
 }
 p { font-family: inherit, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height:1.25;
     color: var(--text-color);
+}
+.container{
+    width: 447px;
+    height: 519px;
+    margin-left: 85px;
 }
 .motto {
     font-weight: 800;
@@ -30,7 +36,7 @@ p { font-family: inherit, sans-serif;
     font-size: 30px;
     line-height: 1.23;
     color:var(--text-color);
-    background-color: #bc1a1a;
+    background-color: rgba(188, 26, 26, 0.2);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -39,6 +45,9 @@ p { font-family: inherit, sans-serif;
     gap: 10px;
     border-radius: 16px;
     border:none;
+}
+.btn:is(:hover:focus){
+    background-color: #d50505b7;
 }
 .number{ 
     
