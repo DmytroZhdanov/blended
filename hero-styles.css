@@ -22,7 +22,8 @@ p { font-family: inherit, sans-serif;
     font-size: 64px;
     line-height: 1.2;
     color: #F3F3F3;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 .line{
     position: relative;
 }
@@ -38,18 +39,6 @@ p { font-family: inherit, sans-serif;
     font-weight: 800;
     color:rgba(188, 26, 26, 0.71);
 }
-.second-text{
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 1.2;
-    color: var(--text-color);
-}
-.table{
-    display: block;
-    align-items: center;
-    justify-content: center;
-}
-
 .btn {
     font-family: inherit, sans-serif;
     font-weight: 500;
@@ -65,17 +54,48 @@ p { font-family: inherit, sans-serif;
     gap: 10px;
     border-radius: 16px;
     border:none;
+    cursor: pointer;
 }
 .btn:is(:hover:focus){
     background-color: #d50505b7;
 }
+/*розміщення двох значень*/
+.second-text{
+    position: relative;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.2;
+    color: var(--text-color);
+    max-width: 447px;}
+.list{
+    width: 371px;
+    height: 78px;
+    display: flex;
+    gap:31px;
+    padding: 0px;}
+.line-gap{
+    position: relative;
+}
+.line-gap::after{
+    content: "";
+    position: absolute;
+    border: 1px solid #F3F3F3;
+    height: 78px;
+    top: 0;
+    left: 179px;
+}
+.line-second{
+    display: flex;
+    width: 160px;
+    height: 39px;
+}
 .number{ 
-    
     font-family: inherit, sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 1.2;
     color: var(--text-color);
+    align-items: center;
 }
 .section {background-image: linear-gradient(228.52deg, rgba(111, 102, 102, 0.9) 4.71%, rgba(16, 15, 15, 0.9) 39.77%, rgba(16, 15, 15, 0.9) 44.21%);;
     padding-top: 72px;
