@@ -317,9 +317,9 @@ body {
   outline: 2px solid tomato;
 
 }
-.products-img{
+/* .products-img{
 
-}
+} */
 .products-scroll-item:nth-child(2n+1){
   flex-direction: row-reverse;
 }
