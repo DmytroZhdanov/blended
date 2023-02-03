@@ -378,6 +378,7 @@ margin-bottom: 16px;
 /* =============== /SAUCES =============== */
 .sauces-img {
   border-radius: 50%;
+  box-shadow: 0px 0px 50px 0px rgba(124, 112, 112, 1);
 }
 /* =============== /SAUCES =============== */
 .sauces-item {
@@ -395,6 +396,40 @@ margin-bottom: 16px;
 
 .sauces-list > .sauces-item:nth-child(2n) .sauces-content {
   margin-right: 90px;
+}
+
+.sauces-label {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2;
+
+  margin-bottom: 16px;
+}
+
+.sauces-description {
+  font-size: 16px;
+  line-height: 1.2;
+
+  margin-bottom: 20px;
+}
+
+.sauces-button {
+  width: 202px;
+
+  display: inline-block;
+  border: none;
+
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--primary-font-family);
+
+  background-color: rgba(188, 26, 26, 0.2);
+  border-radius: 8px;
+
+  padding-top: 9.5px;
+  padding-bottom: 9.5px;
+  padding-left: 57px;
+  padding-right: 57px;
 }
 
 /* =============== SECTION-VIDEO ===============*/
