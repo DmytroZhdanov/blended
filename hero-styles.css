@@ -90,6 +90,7 @@ p { font-family: inherit;
     height: 78px;
     top: 0;
     left: 179px;
+    transform: translateY(-25%);
 }
 .list-second{
     width: 168px;
@@ -100,7 +101,13 @@ p { font-family: inherit;
     position: absolute;
     display: inline;
     width: 121px;
-
+    margin: 0 auto;
+}
+.first{
+    margin-top: 10px;
+}
+.fix{
+    width: 131px;
 }
 .number{ 
     position: relative;
