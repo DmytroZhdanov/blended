@@ -6,7 +6,7 @@ body { font-family: 'Montserrat', sans-serif;
 
 ul {list-style-type:none;}
 
-p { font-family: inherit, sans-serif;
+p { font-family: inherit;
     font-weight: 400;
     font-size: 16px;
     line-height:1.25;
@@ -55,8 +55,9 @@ p { font-family: inherit, sans-serif;
     border-radius: 16px;
     border:none;
     cursor: pointer;
+    margin-bottom: 68.5px;
 }
-.btn:is(:hover:focus){
+.btn:is(:hover,:focus){
     background-color: #d50505b7;
 }
 /*розміщення двох значень*/
@@ -72,9 +73,15 @@ p { font-family: inherit, sans-serif;
     height: 78px;
     display: flex;
     gap:31px;
-    padding: 0px;}
+    padding-top: 20.5px;
+    padding-bottom: 18.5px;
+    padding-left: 0;
+}
 .line-gap{
     position: relative;
+    padding-right: 31px;
+    width: 160px;
+    height: 39px;
 }
 .line-gap::after{
     content: "";
@@ -84,18 +91,28 @@ p { font-family: inherit, sans-serif;
     top: 0;
     left: 179px;
 }
-.line-second{
-    display: flex;
-    width: 160px;
+.list-second{
+    width: 168px;
     height: 39px;
+    padding-left: 12px;
+}
+.list-text{
+    position: absolute;
+    display: inline;
+    width: 121px;
+
 }
 .number{ 
-    font-family: inherit, sans-serif;
+    position: relative;
+    display: inline;
+    padding-right: 12px;
+    width: 31px;
+    height: 39px;
     font-weight: 600;
     font-size: 32px;
     line-height: 1.2;
     color: var(--text-color);
-    align-items: center;
+    margin: 0;
 }
 .section {background-image: linear-gradient(228.52deg, rgba(111, 102, 102, 0.9) 4.71%, rgba(16, 15, 15, 0.9) 39.77%, rgba(16, 15, 15, 0.9) 44.21%);;
     padding-top: 72px;
