@@ -56,9 +56,11 @@ p { font-family: inherit;
     border:none;
     cursor: pointer;
     margin-bottom: 68.5px;
+    transition: background-color 250ms linear, box-shadow 250ms linear;
 }
 .btn:is(:hover,:focus){
     background-color: #d50505b7;
+    box-shadow: inset 0px -12px 52px 25px rgba(0,0,0,0.3);
 }
 /*розміщення двох значень*/
 .second-text{
